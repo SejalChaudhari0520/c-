@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //reverse a number
+    int n;
+    cin>>n;
+    int temp;
+    while(n!=0)
+    {
+        temp=n%10;
+        cout<<temp;
+        n=n/10;
+    }
+    return 0;
+}
