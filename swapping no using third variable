@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //swapping two numbers
+    int n1,n2;
+    cin>>n1>>n2;
+    cout<<"two numbers are"<<n1<<"and"<<n2<<endl;
+    //swapping using third variable
+    int temp;
+    temp=n1;
+    n1=n2;
+    n2=temp;
+    return 0;
+}
